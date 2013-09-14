@@ -1,0 +1,89 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    padding-top: 48px;
+  }
+}
+
+/* btn-simple */
+.btn-simple .caret {
+border-top-color: #000;
+}
+
+.btn-simple {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.btn-simple:hover, .btn-simple:focus, .btn-simple:active, .btn-simple.active,
+.open .dropdown-toggle.btn-simple {
+color: #000;
+background-color: #ebebeb;
+border-color: #adadad;
+}
+
+/* btn-decide */
+.btn-decide {
+color: #ffffff;
+background-color: #428bca;
+border-color: #357ebd;
+}
+
+.btn-decide:hover,
+.btn-decide:focus,
+.btn-decide:active,
+.btn-decide.active,
+.open .dropdown-toggle.btn-decide {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.btn-decide:active,
+.btn-decide.active,
+.open .dropdown-toggle.btn-decide {
+  background-image: none;
+}
+
+.btn-decide.disabled,
+.btn-decide[disabled],
+fieldset[disabled] .btn-decide,
+.btn-decide.disabled:hover,
+.btn-decide[disabled]:hover,
+fieldset[disabled] .btn-decide:hover,
+.btn-decide.disabled:focus,
+.btn-decide[disabled]:focus,
+fieldset[disabled] .btn-decide:focus,
+.btn-decide.disabled:active,
+.btn-decide[disabled]:active,
+fieldset[disabled] .btn-decide:active,
+.btn-decide.disabled.active,
+.btn-decide[disabled].active,
+fieldset[disabled] .btn-decide.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+
+/* table */
+
+.table.table-bordered.table-hover td{
+  vertical-align: middle;
+}
+
+/* nav */
+.navbar-simple{
+  background-color: #fff;
+  border: 1px solid #eee;
+}
